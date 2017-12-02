@@ -3,7 +3,6 @@ class Managecompanies extends CI_Controller {
 
 	public function __construct()
 		{		
-			parent::__construct();
 			
 			header("cache-Control: no-store, no-cache, must-revalidate");
 			header("cache-Control: post-check=0, pre-check=0", false);
